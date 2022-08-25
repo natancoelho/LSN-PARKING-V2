@@ -67,7 +67,7 @@ img{
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 20px;
     box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
    
@@ -80,4 +80,9 @@ img{
     
     background-color: rgb(233, 73, 73);
     transition: .5s;
+}
+.unit{
+    height: 100%;
+    width: 4000px;
+    background-color: aqua;
 }
