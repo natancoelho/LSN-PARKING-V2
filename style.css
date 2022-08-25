@@ -1,7 +1,6 @@
 body{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(32, 32, 32);
     margin: 0 auto;
-    padding: 10px;
     color:white;
     font-family: 'Open Sans', sans-serif;
     
@@ -41,39 +40,46 @@ img{
    
 }
 .amostra{ 
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
      background-image: url('imagens/wepik-photo-mode-2022723-225727.png');
 }
+.amostra .card h1{
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .amostra p{
+    font-size: 25px;
+    margin-left: 20px;
     color: white;
 }
 .amostra .card{
     border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
     position: absolute;
     margin-top: 80px;
     margin-left: 30px;
-    padding: 80px;
     box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
-
+    width: 400px;
+    height: 200px;
 
     background-color: rgb(27, 27, 27);
 }
 .amostra .undercard{
+    height: 60px;
+    width:  220px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    margin-top: 90px;
-    margin-left: 40px;
-    padding: 20px;
+    margin-top: 250px;
     box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
-   
+    margin-left: 120px;
+    
 }
 .amostra .undercard h1{
-    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
     color: black;
 }
 .amostra .undercard:hover{
@@ -82,7 +88,132 @@ img{
     transition: .5s;
 }
 .unit{
-    height: 100%;
-    width: 4000px;
-    background-color: aqua;
+    height: 600px;
+    background-color: rgb(32, 32, 32);
+   
+}
+.unit .unitcard h1{
+    text-align: center; 
+}
+.unit .unitcard{
+    background-color:rgb(32, 32, 32);
+    padding: 0px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 300px;
+    
+}
+
+.unit .unitcard2{
+    background-color: rgba(14, 14, 14, 0.2);;
+    color: black;
+    background-color: WHITE;
+    padding-bottom: 70px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 600px;
+    box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+.unit .unitcard2 h1{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+
+}
+.unit .unitcard2 p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.unit .unitcard3{
+    
+    position: absolute;
+
+    
+}
+.unit .unitcard3 img{
+    margin-top: 100px;
+    margin-left: 800px;
+    box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .amostra .card{
+        
+        margin-left: 40px;
+        width: 280px;
+        height: 180px;
+        
+    }
+    
+}
+@media screen and (max-width: 768px) {
+
+    .amostra .card h1{
+        
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+
+    .amostra .card p{
+       
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .amostra .undercard{
+        width: 130px;
+        height: 30px;
+        margin-left: 110px;
+       
+    }
+    
+}
+@media screen and (max-width: 768px) {
+
+    .amostra .undercard h1{
+        font-size: 17px;
+        text-align: center;
+        
+    }
+    
+}
+@media screen and (max-width: 768px) {
+
+    .unit .unitcard2{
+        width: 250px;
+        height: 300px;
+        margin-left: 50px;
+        
+       
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .unit .unitcard3 img{
+        width: 250px;
+        height: 300px;
+        margin-top: 560px;
+        margin-left: auto;
+        margin-left: 50px;
+        
+       
+    }
+    
 }
