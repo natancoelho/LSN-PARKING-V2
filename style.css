@@ -117,7 +117,7 @@ img{
     background-color: rgb(34, 34, 34);
     width: 500px;
     height: 60px;
-    margin-top: 330px;
+    margin-top: 150px;
     border-radius: 20px;
     
     
@@ -125,12 +125,14 @@ img{
 
 
 .unit .unitcard2 h1{
-    margin-top: 80px;
-    margin-left: 40px;
+    
+    margin-left: 20px;
     
 }
   
 .unit .unitcard2 p{
+    margin-top: 60px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
