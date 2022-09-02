@@ -279,18 +279,16 @@ img{
 @media screen and (max-width: 1000px) {
 
     .unit2 {
-        
-       display: flex;
-       justify-content: flex-end;    
-       align-items: flex-end;        
+        height: auto;
+        flex-direction: column;    
     }
 }
 @media screen and (max-width: 1000px) {
-
+    
     .unit2 .unitcard2{
+        margin-top: 30px;
         
-        
-        justify-content: flex-end;      
+            
 
         
     }
