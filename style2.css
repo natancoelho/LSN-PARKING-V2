@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 body{
     background-color: rgb(32, 32, 32);
     margin: 0 auto;
@@ -44,7 +45,7 @@ img{
     display: flex;
     background-position: center;
     background-repeat: no-repeat;
-     background-image: url('imagens/wepik-photo-mode-2022723-225727.png');
+     background-image: url('imagens/trabalho.png');
 }
 .amostra .card h1{
     text-align: center;
@@ -156,62 +157,72 @@ img{
     box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.mobile{
+.equipe{
+   
+    width: 600;
+    height: 50px;
+}
+.equipe h1{
+    text-align: center;
+}
+.unit2{
     align-items: center;
     justify-content: center;        
     height: 600px;
     display: flex;
-    background-color: rgb(36, 36, 36);
+    
    
 }
 
-.mobile .card1{
-    box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 300px;
-    height: 500px;
-    background-image: url('imagens/MOBILE\ V3.png');
+
+
+.unit2 .unitcard2{
+    margin-inline: 20px;
+    background-image: url('imagens/natan.jpg');
     background-position: center;
-    background-size: 840px;
-    background-position-x: -235px;
-    background-position-y: -270px;
- 
-
-}
-.mobile .card2{
+    background-repeat: no-repeat;
+    background-size: 300px;
+    align-items: center;
+    justify-content: center;    
     box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(24, 24, 24);
+    width: 300px;
+    height: 450px;
     border-radius: 20px;
-    width: 600px;
-    height: 500px;
-    margin-left: 200px;
-
-}
-.mobile .card2 img{
-    margin-left: 120px;
-    margin-top: 0px;
-    width: 350px;
-    height: 160px;
-
-}
-.mobile .card2 p{
-    color: rgb(49, 192, 56);
-    font-weight: bold;
-    font-size: 30px;
-    padding: 20px;
+   
     
-
 }
-.mobile .card2 h1{
 
-    margin-top: 50px;
+
+
+
+.unit2 .unitcard2 .desc{
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 350px;
+    width: 300px;
+    height: 100px;
+    
+   
+    
+}
+.unit2 .unitcard2 .desc h1{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    
+   
+    
+}
+
+.unit2 .unitcard2 .desc p{
+    font-size: 14px;
     margin-left: 20px;
     color: black;
-
+    
+   
+    
 }
-
-
 
 
 @media screen and (max-width: 576px) {
@@ -248,6 +259,7 @@ img{
 @media screen and (max-width: 517px) {
 
     .unit .unitcard3{
+            display: none;
             margin-top: 420px;
             width: 300px;
             height: 40px;
@@ -264,70 +276,53 @@ img{
     }
 }
 
+@media screen and (max-width: 1000px) {
 
-@media screen and (max-width: 1165px) {
-
-    .mobile {
+    .unit2 {
         
-        align-items: center;
-        justify-content: center;        
+       display: flex;
+       justify-content: flex-end;    
+       align-items: flex-end;        
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .unit2 .unitcard2{
+        
+        
+        justify-content: flex-end;      
 
         
     }
 }
-@media screen and (max-width: 1165px) {
 
-    .mobile .card2{
 
-             margin-left: 20px;
 
-        
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    
 }
 
-@media screen and (max-width: 1165px) {
-
-    .mobile .card1{
-           display: none;
-
-        
-    }
-}
-@media screen and (max-width: 1070px) {
-
-    .mobile .card2{
-           
-           width: 400px;
-           height: 500px;
-        
-    }
-}
-@media screen and (max-width: 517px) {
-
-    .mobile .card2{
-           margin-left: 0px;
-           width: 300px;
-           height: 500px;
-        
-    }
-}
-
-@media screen and (max-width: 1070px) {
-
-    .mobile .card2 img{
-
-            margin-top: -43px;
-            margin-left: 25px;
-
-        
-    }
-}
-@media screen and (max-width: 517px) {
-
-    .mobile .card2 img{
-
-            display: none;
-
-        
-    }
-}
