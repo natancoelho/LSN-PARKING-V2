@@ -28,7 +28,7 @@ li{
 
 a:hover{
     background-color: rgb(16, 255, 96);
-    border-radius: 20px;
+    border-radius: 40px;
     transition: .5s;
     padding: 15px;
     box-shadow: 20px;
@@ -73,24 +73,28 @@ img{
     margin-left: 100px;
     width: 200px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 50px;
-    box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
    
     
 }
-.amostra .card .undercard h1{
+.amostra .card .undercard a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 25px;
-    color: black;
-}
-.amostra .undercard:hover{
     
-    background-color: rgb(16, 255, 96);
-    transition: .5s;
 }
+.amostra .card .undercard a:hover{
+    background-color: rgb(16, 255, 96);;
+    
+}
+
 .unit{
 
     align-items: center;
@@ -178,10 +182,6 @@ img{
 
 .unit2 .unitcard2{
     margin-inline: 20px;
-    background-image: url('imagens/natan.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 300px;
     align-items: center;
     justify-content: center;    
     box-shadow: 10px 2px 2px 5px rgba(15, 15, 15, 0.2);
@@ -192,14 +192,22 @@ img{
    
     
 }
+.unit2 .unitcard2 img{
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+}
 
+.unit2 .unitcard2:hover{
+        border: 5px solid rgb(255, 255, 255);
+}
 
 
 
 .unit2 .unitcard2 .desc{
     border-radius: 20px;
     background-color: white;
-    margin-top: 350px;
+    margin-top: -10px;
     width: 300px;
     height: 100px;
     
@@ -222,6 +230,16 @@ img{
     
    
     
+}
+.topo{
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
 }
 
 

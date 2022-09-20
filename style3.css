@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(16, 255, 96);
+    border-radius: 40px;
+    transition: .5s;
+    padding: 15px;
+    box-shadow: 20px;
+}
+
+img{
+    width: 100%;
+    height: 1200px;
+    
+   
+}
+.amostra{ 
+    
+    height: 600px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-image: url('imagens/cidade.jpg');
+     background-size: 2000px;
+}
+.amostra .card h1{
+    text-align: center;
+    
+    
+}
+.amostra p{
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+}
+.amostra .card{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 80px;
+    box-shadow: 10px 2px 2px 5px rgba(0, 0, 0, 0.2);
+   
+
+    background-color: rgb(27, 27, 27);
+}
+.amostra .card .undercard{
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    
+   
+    
+}
+.amostra .card .undercard a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.amostra .card .undercard a:hover{
+    background-color: rgb(16, 255, 96);;
+    
+}
+
+
+.rio{
+
+    background-image: url(imagens/rio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;        
+    height: 600px;
+    display: flex;
+    background-color: white;
+    
+}
+.rio p{
+    margin-bottom: 500px;
+    font-size: 80px;
+   
+}
+
+.rio:hover{
+    transform: scale(1.1);
+   
+}
+
+
+
+.sp{
+    background-image: url(imagens/sao\ paulo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;        
+    height: 600px;
+    display: flex;
+    
+   
+}
+.sp p{
+    font-size: 80px;
+    margin-bottom: 500px;
+}
+.sp:hover{
+    transform: scale(1.1);
+   
+}
+
+.ba{
+
+    background-image: url(imagens/bahia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;        
+    height: 600px;
+    display: flex;
+    background-color: white;
+    
+}
+.ba p{
+    font-size: 80px;
+    margin-bottom: 500px;
+}
+.ba:hover{
+    transform: scale(1.1);
+   
+}
+
+
+
+.topo{
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .amostra {
+        
+        align-items: center;
+        justify-content: center;        
+
+        
+    }
+}
+@media screen and (max-width: 576px) {
+
+    .amostra .card{
+
+             margin-left: 0px;
+
+        
+    }
+}
+
+
+@media screen and (max-width: 517px) {
+
+    .unit .unitcard2{
+            
+            width: 300px;
+            height: 400px;
+
+        
+    }
+}
+@media screen and (max-width: 517px) {
+
+    .unit .unitcard3{
+            display: none;
+            margin-top: 420px;
+            width: 300px;
+            height: 40px;
+
+        
+    }
+}
+@media screen and (max-width: 1165px) {
+
+    .unit .unitcard4{
+           display: none;
+
+        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .unit2 {
+        height: auto;
+        flex-direction: colAumn;    
+    }
+}
+@media screen and (max-width: 1000px) {
+    
+    .unit2 .unitcard2{
+        margin-top: 29px;
+        
+            
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
