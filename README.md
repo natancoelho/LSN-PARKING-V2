@@ -1,6 +1,5 @@
 LSN PARKING
 
-Imagens
 ![print 1](https://user-images.githubusercontent.com/99759469/211942177-75f7d17b-5ad2-4ef4-bf48-85e6c6f4ce53.PNG)
 ![print 4](https://user-images.githubusercontent.com/99759469/211942189-f64f7baf-93a0-417f-b5b2-5a3fe6c3a05d.PNG)
 ![print 2](https://user-images.githubusercontent.com/99759469/211942196-89abc44d-1559-4f6e-93aa-1320df4f5ead.PNG)
