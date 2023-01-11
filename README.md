@@ -14,6 +14,6 @@ Resposivo!!
 
 🤝 Colaboradores
 Natan : https://github.com/natancoelho
-Laura :
+Laura :https://github.com/lauraTchaly
 Sandro :
 
