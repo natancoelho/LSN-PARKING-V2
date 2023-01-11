@@ -1,8 +1,8 @@
 LSN PARKING
 GitHub repo size GitHub language count GitHub forks Bitbucket open issues Bitbucket open pull requests
 
-exemplo imagem
-
+Imagens
+![print 1](https://user-images.githubusercontent.com/99759469/211942177-75f7d17b-5ad2-4ef4-bf48-85e6c6f4ce53.PNG)
 
 Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
